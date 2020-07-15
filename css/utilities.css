@@ -40,3 +40,6 @@
 .flex-1{
     flex:1;
 }
+.section-heading:hover{
+    color:var(--primary);
+}

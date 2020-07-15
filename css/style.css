@@ -6,6 +6,7 @@
     --termary: #898989;
     --light: #f2f2f2;
     --secondary: #070606;
+    --normal: #ff7f50;
 }
 body{
     font-family: 'poppins', sans-serif;
@@ -189,5 +190,95 @@ section.services .card-wrapper .card:hover h2,section.services .card-wrapper .ca
 
 section.freelancer{
     text-align: center;
-    background:linear-gradient(rgba(0,0,0,0,.7),rgba(0,0,0,0,.7)),url(../po
+    background:linear-gradient(rgba(0,0,0,0,.7),rgba(0,0,0,0,.7)),url(../img/download\ 22222222.jpg);
+    color:var(--normal);
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,67% 88%, 0 100%);
+}
+section.freelancer h1{
+    font-size:3rem;
+    margin-bottom:0.8rem;
+}
+section.freelancer p{
+margin-bottom: 2rem;
+font-family: 'Lato', sans-serif;
+}
+.section-heading h1 span{
+    color:var(--primary);
+}
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:3rem;
+}
+section.container .card-wrapper{
+    text-align: center;
+}
+section.contact .card-wrapper .card img{
+margin-bottom: 3rem;
+}
+section.contact .card-wrapper .card h1{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+section.contact .card-wrapper .card h6{
+    font-size:1rem;
+    color:var(--termary);
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2rem;
+    margin-bottom: 2rem;
+}
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+section.contact .input-wrap-2 input{
+    margin-bottom:2rem;
+    border:1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact input{
+    padding:0.5rem;
+    border:1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea{
+    padding:0.5rem;
+    border:1px solid var(--light);
+    font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea:focus{
+outline: none;
+}
+section.contact input:focus {
+    background:yellowgreen;
+    outline:none;
+}
+section.contact .btn-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+footer{
+    background:var(--dark);
+    text-align: center;
+    padding:5rem 0;
+}
+footer .footer-logo{
+    margin-bottom:3rem;
+    width: 150px;
+}
+footer .footer-socials a{
+    margin-right: 1rem;
+}
+footer .footer-socials{
+    margin-bottom: 3rem;
+    margin-right: -1rem;
+}
+footer .copyright{
+    color:var(--primary);
 }
